@@ -1,0 +1,7 @@
+services:
+  api:
+    build: .
+    image: blk-hacking-ind-vinayak-kumar
+    ports:
+      - "5477:5477"
+    restart: always
