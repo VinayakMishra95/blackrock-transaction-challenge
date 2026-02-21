@@ -46,3 +46,8 @@ http://127.0.0.1:8000/docs
 - Endpoint: /blackrock/challenge/v1/transactions:validator
 - Method: POST
 - Description: Validates transactions based on specific business rules like negative amount checks.
+
+## Run with Docker
+You can pull and run this API directly from Docker Hub:
+```bash
+docker run -p 5477:5477 vinayakdocker448/blk-hacking-ind-vinayak-kumar:latest
